@@ -7,7 +7,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9EA34141-B6A5-4CE7-A94E-66FF905A5F71}</ProjectGuid>
+    <ProjectGuid>{E1F7BA65-3242-4C86-A99C-388992D125AA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SCE</RootNamespace>
@@ -35,7 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp-Publicized, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\ExMod.Exiled.9.5.1\lib\net48\Assembly-CSharp-Publicized.dll</HintPath>
+      <HintPath>..\packages\ExMod.Exiled.9.5.1\lib\net48\Assembly-CSharp-Publicized.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
