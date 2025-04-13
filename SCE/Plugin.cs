@@ -15,5 +15,14 @@ namespace SCE
         public override string Author => "Swishhyy";
         // Override the plugin's version property.
         public override Version Version => new(1, 0, 0);
+
+        public override void OnEnabled()
+        {
+            Log.Info($"{Name} by {Author} has been enabled!");
+        }
+        public override void OnDisabled()
+        {
+            Log.Info($"{Name} by {Author} has been disabled!");
+        }
     }
 }
